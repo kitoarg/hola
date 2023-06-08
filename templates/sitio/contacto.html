@@ -1,0 +1,12 @@
+{%include'sitio/head.html'%}
+<div class="card container">
+    <div class="card-details">
+      <p class="text-title">Correo</p>
+      <p class="text-body" id="correo">m3ndozamarcos@gmail.com</p>
+    </div>
+    <button class="card-button" id="btn-copiar" onclick="copiarCorreo()">Copiar correo</button>
+  </div>
+
+  <!-- Link To JS -->
+<script src="{{url_for('static', filename='js/copiar.js') }}"></script>
+  {%include'sitio/pie.html'%}
